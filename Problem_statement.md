@@ -15,7 +15,7 @@ The artifact costs b tokens. Since Alice has put considerable effort to collect 
 **INPUT**:\
 The input consists of t(1≤t≤10<sup>5</sup>) test cases. Each test case admits an integer 1≤n≤10<sup>5</sup>, which is the count of numbers present with Alice.\
 The next line consists of n+1 integers - firstly the integers a<sub>1</sub>, a<sub>2</sub> .. a<sub>n</sub> (1≤a<sub>i</sub>≤10<sup>7</sup> where 1≤i≤n), and then the integer b(1≤b≤10<sup>10</sup>) (cost of the artifact)\
-It is guaranteed that the sum of n over all test cases does not exceed 10<sup>6</sup>.
+It is guaranteed that the sum of n over all test cases does not exceed 3×10<sup>6</sup>.
 \
 \
 **OUTPUT**:\
