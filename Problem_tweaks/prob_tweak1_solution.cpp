@@ -34,7 +34,7 @@ int main(){
         bitset <100000000> var;
         var[0]=true;
         for(int i=0;i<n;i++)
-            var=var|(var<<arr[i]);
+            var=var|(var<<fc[i]);
         if(var[b]==true)
             cout<<"yes"<<'\n';
         else

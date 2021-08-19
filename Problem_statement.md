@@ -1,13 +1,13 @@
-## Name of the problem : Trading in Orzyn
+## Name of the problem : Trading in Braavos
 #### Time limit : 2.5 seconds
 #### Memory limit : 256 MB
 #### Input : standard input
 #### Output : standard output
 \
 \
-Alice is on a visit to a strange place named Orzyn. During her visit, she has collected n numbers a<sub>1</sub>, a<sub>2</sub> .. a<sub>n</sub>. Now, she wants to use these numbers to buy a rare artifact.
+Alice is on a visit to a strange place named Braavos. During her visit, she has collected n numbers a<sub>1</sub>, a<sub>2</sub> .. a<sub>n</sub>. Now, she wants to use these numbers to buy a rare artifact.
 
-This artifact can only be bought via special tokens. Orzyn has a strange way to trade numbers for tokens : For each number m that Alice gives in to trade, the employee counts the number of i such that 1≤i≤m and the remainder obtained on dividing m by i is 0. Let this number obtained be x. After this, the employee hands x tokens to Alice.
+This artifact can only be bought via special tokens. Braavos has a strange way to trade numbers for tokens : For each number m that Alice gives in to trade, the employee counts the number of i such that 1≤i≤m and the remainder obtained on dividing m by i is 0. Let this number obtained be x. After this, the employee hands x tokens to Alice.
 
 The artifact costs b tokens. Since Alice has put considerable effort to collect the n numbers, she wishes to spend only the least number of numbers required to buy the artifact.  Your task is to help her identify the numbers that she should trade for the tokens.
 \
