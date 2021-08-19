@@ -4,8 +4,8 @@ using namespace std;
 const int _max = 10000005;
 int factors[_max]={};
 
-bool cmp(pair<int,int> x,pair<int,int> y){
-    return x.first>y.first;
+bool cmp(int x,int y){
+    return factors[x]>factors[y];
 }
 
 int main(){
@@ -14,9 +14,8 @@ int main(){
     cout.tie(NULL);
 
     for(int i=1;i<_max;i++){
-        for(int j=i;j<_max;j+=i){
+        for(int j=i;j<_max;j+=i)
             factors[j]++;
-        }
     }
 
     int t=1;
@@ -25,26 +24,19 @@ int main(){
         int n;
         cin>>n;
         int arr[n+5],b;
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n;i++)
             cin>>arr[i];
-        }
         cin>>b;
 
-        pair<int,int> checker[n+3];
-
-        for(int i=0;i<n;i++){
-            checker[i].first = factors[arr[i]];
-            checker[i].second = arr[i];
-        }
-        sort(checker,checker+n, cmp);
+        sort(arr,arr+n, cmp);
 
         long long tokens_now = 0;
         bool possible = false;
         vector<int> nums_to_take;
 
         for(int i=0;i<n;i++){
-            tokens_now+=checker[i].first;
-            nums_to_take.push_back(checker[i].second);
+            tokens_now+=factors[arr[i]];
+            nums_to_take.push_back(arr[i]);
             if(tokens_now>=b){
                 possible = true;
                 break;

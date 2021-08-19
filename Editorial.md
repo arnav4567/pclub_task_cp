@@ -6,4 +6,4 @@ A naive way would be to take the array of each test case, then find out the numb
 \
 Hence, we make use of precomputation. We make an array which stores the number of factors of each number. After this, there are multiple ways of implementation, and one of them is given [here](https://github.com/arnav4567/pclub_task_cp/blob/master/solcode.cpp).\
 \
-Time complexity of the given solution is O(A×log(A)+X×log(X)), where X is the sum of n over all test cases.
+Time complexity of the given solution is O(A×log(A)+n×log(n)).

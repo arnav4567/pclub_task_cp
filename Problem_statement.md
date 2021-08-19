@@ -28,7 +28,7 @@ If there are multiple answers, output any of them.
 
 Input :
 ```
-2
+3
 3
 4 5 6 13
 4
