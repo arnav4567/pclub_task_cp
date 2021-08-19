@@ -26,7 +26,7 @@ int main(){
         cout<<b<<'\n';
         //sum+=n;
     }
-    freopen("case.txt", "w", stdout);   //to save in a file
+    freopen("myfile.txt", "w", stdout);   //to save in a file
     //cout<<sum<<'\n';          //to check if sum of is indeed <1e6 or not
     return 0;
 }
