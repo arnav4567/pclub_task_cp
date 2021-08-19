@@ -50,4 +50,4 @@ Output :
 
 In the first case, it can be shown that Alice can't buy the artifact since the maximum number of tokens that can be obtained is 9 which is less than 13.\
 \
-In the second case if Alice trades the numbers 4, 24, 48, she can buy the artifact. It can be shown that it is not possible to do so with less than 3 numbers.
+In the second case if Alice trades the numbers 8, 24, 48, she can buy the artifact. It can be shown that it is not possible to do so with less than 3 numbers.
